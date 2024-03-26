@@ -1,0 +1,16 @@
+{
+  "name": "kmi-skaiciuokle",
+  "version": "1.0.0",
+  "description": "![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)\r ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)\r ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)\r [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)",
+  "main": "skaiciuokle.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4910",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jongita <jurgitajonaityte@gmail.com> (https://github.com/jongita)",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
