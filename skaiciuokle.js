@@ -7,7 +7,7 @@ const skaiciuoti = () => {
     const height = heightInput.valueAsNumber / 100;
     const weight = weightInput.valueAsNumber;
     const sum = (weight / height ** 2).toFixed(2);
-    kmi.innerHTML = sum;
+    kmi.innerHTML = `${isNaN(sum) ? 'Įveskite duomenis' : sum}`;
 }
 
 btn.onclick = skaiciuoti;
